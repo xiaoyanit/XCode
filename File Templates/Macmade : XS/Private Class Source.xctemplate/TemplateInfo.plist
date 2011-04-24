@@ -13,7 +13,7 @@
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
-	<string>___FILEBASENAME___.m</string>
+	<string>___FILEBASENAME___.c</string>
 	<key>Summary</key>
 	<string>Private Class Source</string>
 </dict>

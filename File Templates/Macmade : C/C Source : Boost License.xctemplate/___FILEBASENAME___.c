@@ -30,7 +30,7 @@
 /* $Id$ */
 
 /*!
- * @file        ___FILENAME___.c
+ * @file        ___FILEBASENAME___.c
  * @brief       ...
  * @author      Jean-David Gadina <macmade@eosgarden.com>
  */

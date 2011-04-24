@@ -30,17 +30,17 @@
 /* $Id$ */
 
 /*!
- * @file        ___FILENAME___.c
- * @brief       Implementation for the ___FILENAME___ class
+ * @file        ___FILEBASENAME___.c
+ * @brief       Implementation for the ___FILEBASENAME___ class
  * @author      Jean-David Gadina <macmade@eosgarden.com>
  */
 
 #include "XS.h"
-#include "_____FILENAME___.h"
+#include "_____FILEBASENAME___.h"
 
-extern XSClassID _____FILENAME___ClassID;
+extern XSClassID _____FILEBASENAME___ClassID;
 
-XSStatic XSObject ___FILENAME____Alloc( void )
+XSStatic XSObject ___FILEBASENAME____Alloc( void )
 {
-    return ( XSObject )XSRuntime_CreateInstance( _____FILENAME___ClassID );
+    return ( XSObject )XSRuntime_CreateInstance( _____FILEBASENAME___ClassID );
 }

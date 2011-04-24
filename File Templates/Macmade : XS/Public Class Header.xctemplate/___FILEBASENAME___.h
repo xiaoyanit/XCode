@@ -30,7 +30,7 @@
 /* $Id$ */
 
 /*!
- * @file        ___FILENAME___.h
+ * @file        ___FILEBASENAME___.h
  * @brief       class functions
  * @author      Jean-David Gadina <macmade@eosgarden.com>
  */
@@ -47,13 +47,13 @@ XS_EXTERN_C_BEGIN
  * @typedef     
  * @brief       Opaque type for the  objects
  */
-typedef struct _____FILENAME____Struct * ___FILENAME___;
+typedef struct _____FILEBASENAME____Struct * ___FILEBASENAME___;
 
 /*!
  * @brief       Object allocator
  * @result      The allocated object
  */
-XSStatic XSObject ___FILENAME____Alloc( void );
+XSStatic XSObject ___FILEBASENAME____Alloc( void );
 
 XS_EXTERN_C_END
 

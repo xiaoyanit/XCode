@@ -30,7 +30,7 @@
 /* $Id$ */
 
 /*!
- * @file        ___FILENAME___.h
+ * @file        ___FILEBASENAME___.h
  * @brief       Private class definitions
  * @author      Jean-David Gadina <macmade@eosgarden.com>
  */
@@ -49,7 +49,7 @@ XS_EXTERN_C_BEGIN
  * @struct      
  * @brief       class
  */
-struct ___FILENAME____Struct
+struct ___FILEBASENAME____Struct
 {
     XSRuntimeClass  __class;        /*! Runtime class */
 };
@@ -58,13 +58,13 @@ struct ___FILENAME____Struct
  * @typedef     
  * @brief       class type
  */
-typedef struct ___FILENAME____Struct ___FILENAME___;
+typedef struct ___FILEBASENAME____Struct ___FILEBASENAME___;
 
 /*!
  * @brief       Runtime initialization
  * @result      void
  */
-void ___FILENAME____Initialize( void );
+void ___FILEBASENAME____Initialize( void );
 
 XS_EXTERN_C_END
 

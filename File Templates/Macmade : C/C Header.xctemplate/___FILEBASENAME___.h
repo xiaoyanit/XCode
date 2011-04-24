@@ -6,7 +6,7 @@
 /* $Id$ */
 
 /*!
- * @file        ___FILENAME___.h
+ * @file        ___FILEBASENAME___.h
  * @brief       ...
  * @author      Jean-David Gadina <macmade@eosgarden.com>
  */
