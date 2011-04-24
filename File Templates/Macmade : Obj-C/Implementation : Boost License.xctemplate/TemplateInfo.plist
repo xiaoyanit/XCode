@@ -4,7 +4,7 @@
 <dict>
 	<key>AllowedTypes</key>
 	<array>
-		<string>public.c-header</string>
+		<string>public.c-source</string>
 	</array>
 	<key>DefaultCompletionName</key>
 	<string>filename.m</string>

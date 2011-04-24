@@ -6,9 +6,9 @@
 /* $Id$ */
 
 /*!
- * @file        ___FILENAME___
- * @copyright   eosgarden ___YEAR___ - Jean-David Gadina <macmade@eosgarden.com>
- * @abstract    ...
+ * @file        ___FILENAME___.c
+ * @brief       ...
+ * @author      Jean-David Gadina <macmade@eosgarden.com>
  */
 
 #include "___FILEBASENAME___.h"

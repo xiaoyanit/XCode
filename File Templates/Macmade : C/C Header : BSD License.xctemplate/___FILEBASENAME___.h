@@ -30,9 +30,9 @@
 /* $Id$ */
 
 /*!
- * @header      ___FILENAME___
- * @copyright   eosgarden ___YEAR___ - Jean-David Gadina <macmade@eosgarden.com>
- * @abstract    ...
+ * @file        ___FILENAME___.h
+ * @brief       ...
+ * @author      Jean-David Gadina <macmade@eosgarden.com>
  */
 
 #ifndef _HEADER_H_
@@ -42,9 +42,9 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-    
-    
-    
+
+
+
 #ifdef __cplusplus
 }
 #endif

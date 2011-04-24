@@ -9,12 +9,12 @@
 	<key>DefaultCompletionName</key>
 	<string>filename.h</string>
 	<key>Description</key>
-	<string>C Header / BSD License</string>
+	<string>Public Class Header</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
 	<string>___FILEBASENAME___.h</string>
 	<key>Summary</key>
-	<string>C Header / BSD License</string>
+	<string>Public Class Header</string>
 </dict>
 </plist>

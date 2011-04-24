@@ -30,11 +30,31 @@
 /* $Id$ */
 
 /*!
- * @file        ___FILENAME___.c
- * @brief       ...
+ * @file        ___FILENAME___.h
+ * @brief       class functions
  * @author      Jean-David Gadina <macmade@eosgarden.com>
  */
 
-#include "___FILEBASENAME___.h"
+#ifndef _XS__H_
+#define _XS__H_
+#pragma once
 
+#include "XSMacros.h"
 
+XS_EXTERN_C_BEGIN
+
+/*!
+ * @typedef     
+ * @brief       Opaque type for the  objects
+ */
+typedef struct _____FILENAME____Struct * ___FILENAME___;
+
+/*!
+ * @brief       Object allocator
+ * @result      The allocated object
+ */
+XSStatic XSObject ___FILENAME____Alloc( void );
+
+XS_EXTERN_C_END
+
+#endif /* _XS__H_ */

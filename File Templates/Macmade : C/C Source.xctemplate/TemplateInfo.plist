@@ -4,10 +4,10 @@
 <dict>
 	<key>AllowedTypes</key>
 	<array>
-		<string>public.c-header</string>
+		<string>public.c-source</string>
 	</array>
 	<key>DefaultCompletionName</key>
-	<string>filename</string>
+	<string>filename.c</string>
 	<key>Description</key>
 	<string>C Source</string>
 	<key>Kind</key>

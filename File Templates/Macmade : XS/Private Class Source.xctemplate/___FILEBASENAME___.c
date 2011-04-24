@@ -31,10 +31,36 @@
 
 /*!
  * @file        ___FILENAME___.c
- * @brief       ...
+ * @brief       Private implementation for the ___FILENAME___ class
  * @author      Jean-David Gadina <macmade@eosgarden.com>
  */
 
-#include "___FILEBASENAME___.h"
+#include "XS.h"
+#include "___FILENAME___.h"
 
+/*!
+ * @var         ___FILENAME___Class
+ * @brief       Runtime class definition
+ */
+static const XSClassInfos ___FILENAME___Class =
+{
+    "",                 /* Class name */
+    sizeof( ___FILENAME___ ),       /* Object size */
+    NULL,               /* Constructor */
+    NULL,               /* Destructor */
+    NULL,               /* Default initializer */
+    NULL,               /* Object copy */
+    NULL,               /* Object description */
+    NULL                /* Object comparison */
+};
 
+/*!
+ * @var         ___FILENAME___ClassID
+ * @brief       Type ID for the runtime class
+ */
+XSClassID ___FILENAME___ClassID;
+
+void ___FILENAME____Initialize( void )
+{
+    ___FILENAME___ClassID = XSRuntime_RegisterClass( &__Class );
+}

@@ -31,10 +31,16 @@
 
 /*!
  * @file        ___FILENAME___.c
- * @brief       ...
+ * @brief       Implementation for the ___FILENAME___ class
  * @author      Jean-David Gadina <macmade@eosgarden.com>
  */
 
-#include "___FILEBASENAME___.h"
+#include "XS.h"
+#include "_____FILENAME___.h"
 
+extern XSClassID _____FILENAME___ClassID;
 
+XSStatic XSObject ___FILENAME____Alloc( void )
+{
+    return ( XSObject )XSRuntime_CreateInstance( _____FILENAME___ClassID );
+}

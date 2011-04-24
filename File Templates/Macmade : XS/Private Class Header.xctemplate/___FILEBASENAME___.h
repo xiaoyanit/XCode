@@ -30,11 +30,42 @@
 /* $Id$ */
 
 /*!
- * @file        ___FILENAME___.c
- * @brief       ...
+ * @file        ___FILENAME___.h
+ * @brief       Private class definitions
  * @author      Jean-David Gadina <macmade@eosgarden.com>
  */
 
-#include "___FILEBASENAME___.h"
+#ifndef ___XS__H_
+#define ___XS__H_
+#pragma once
 
+#include "../XSMacros.h"
 
+XS_EXTERN_C_BEGIN
+
+#include "XS.h"
+
+/*!
+ * @struct      
+ * @brief       class
+ */
+struct ___FILENAME____Struct
+{
+    XSRuntimeClass  __class;        /*! Runtime class */
+};
+
+/*!
+ * @typedef     
+ * @brief       class type
+ */
+typedef struct ___FILENAME____Struct ___FILENAME___;
+
+/*!
+ * @brief       Runtime initialization
+ * @result      void
+ */
+void ___FILENAME____Initialize( void );
+
+XS_EXTERN_C_END
+
+#endif /* ___XS__H_ */
